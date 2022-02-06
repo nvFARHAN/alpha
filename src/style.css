@@ -1,6 +1,14 @@
-body
+#bd
 {
     margin: 0;
+    background-image: url("../src/bg2.jpg");
+}
+#navbarContainer
+{
+    
+    background: hsl(0, 0%, 100%, 0.1);
+    /* background-image: url("../src/nav1.png"); */
+    backdrop-filter: blur(1em);
 }
 .wrapper
 {
@@ -9,7 +17,7 @@ body
     overflow-x: hidden;
     perspective: 10px;
 }
-header
+.container1
 {
     position: relative;
     display: flex;
@@ -19,7 +27,7 @@ header
     transform-style: preserve-3d;
     z-index: -1;
 }
-h1
+.container1 h1
 {
     font-size: 7rem;
     color: white;
@@ -39,16 +47,18 @@ h1
 }
 .fg1
 {
-    height: 6em;
-    transform: translateX(-250%) translateZ(-5px);
+    height: 10em;
+    transform: translateX(-250%) translateY(-200%) translateZ(-5px);
 }
 .fg2
 {
-    height: 6em;
-    transform: rotateY(180deg) translateX(-100%) translateZ(-5px);
+    height: 30em;
+    transform: rotateY(180deg) translateX(-50%) translateY(50%) translateZ(5px);
 }
 
 section
 {
     font-size: 2rem;
+    color: white;
+    background-color: rgb(59, 48, 48);
 }

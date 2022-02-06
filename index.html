@@ -6,18 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Writing</title>
     <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
 </head>
-<body>
+<body id="bd">
+    <nav id="navbarContainer" class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button id="toggleBtn"  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto d-flex align-items-center">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link disabled">Disabled</a>
+            </div>
+          </div>
+        </div>
+      </nav>
     <div class="wrapper">
-    <header>
+    <div class="container1">
         <h1>BLOGS</h1>
-        <img class="bg" src="./src/bg.png" alt="bg">
-        <img class="fg1" src="./src/fg.png" alt="fg">
-        <img class="fg2" src="./src/fg.png" alt="fg">
-    </header>
+        <!-- <img class="bg" src="./src/bg.png" alt="bg"> -->
+        <img class="fg1" src="./src/fg2.png" alt="fg">
+        <img class="fg2" src="./src/fg1.png" alt="fg">
+    </div>
     <section>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente ex eos numquam, placeat ullam dicta magnam facere modi, enim necessitatibus libero accusamus unde iusto esse quisquam architecto. Molestiae, quasi tempora!libero Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nam itaque culpa voluptas repudiandae velit voluptates ipsum voluptatibus architecto perferendis reiciendis, voluptatum ipsa repellat? Dignissimos veritatis voluptatum tenetur odio nam.
     </section>
     </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
