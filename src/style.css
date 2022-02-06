@@ -47,12 +47,16 @@
 }
 .fg1
 {
-    height: 10em;
-    transform: translateX(-250%) translateY(-200%) translateZ(-5px);
+    filter: drop-shadow(5px 2px 5px white);
+    max-width: 20%;
+    height: auto;
+    transform: translateX(-250%) translateY(-150%) translateZ(-10px);
 }
 .fg2
 {
-    height: 30em;
+    filter: drop-shadow(10px 10px 20px white);
+    max-width: 150%;
+    height: auto;
     transform: rotateY(180deg) translateX(-50%) translateY(50%) translateZ(5px);
 }
 
@@ -60,5 +64,5 @@ section
 {
     font-size: 2rem;
     color: white;
-    background-color: rgb(59, 48, 48);
+    /* background-color: rgb(59, 48, 48); */
 }
